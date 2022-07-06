@@ -14,7 +14,6 @@ $($(".available-states")[0])
     const stateDescription = $(el).find(".state-description p").html();
     //TODO:
     stateModals[stateName] = stateDescription;
-    //add to stateModals
   });
 
 const stateEnabled = {
@@ -96,12 +95,6 @@ Object.keys(stateEnabled)
       }
     );
   });
-
-// $(".enabled").hover(
-//   //on hover over
-//   function () {
-//     $(this).attr("class", "enabled heyo");
-//     $description.addClass("active");
 
 $(document).on("mousemove", function (e) {
   $description.css({
