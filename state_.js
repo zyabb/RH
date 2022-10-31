@@ -182,6 +182,15 @@ const states = {
         "Shelby County": {},
         "Spencer County": {},
       },
+      "Northern Kentucky": {
+        "Boone County": {},
+        "Bracken County": {},
+        "Campbell County": {},
+        "Gallatin County": {},
+        "Grant County": {},
+        "Kenton County": {},
+        "Pendleton County": {},
+      },
     },
   },
 
@@ -207,10 +216,11 @@ const states = {
         "St. Charles Coun": {},
         "St. Louis County": {},
         "Warren County": {},
+        "St. Louis City": {},
       },
     },
   },
-  "North_Carolina": {
+  North_Carolina: {
     MSA: {
       Asheville: {
         "Buncombe County": {},
@@ -328,6 +338,17 @@ const states = {
         "Pickaway County": {},
         "Union County": {},
       },
+      "Cleveland-Elyria": {
+        "Cuyahoga County": {},
+        "Geauga County": {},
+        "Lake County": {},
+        "Lorain County": {},
+        "Medina County": {},
+      },
+      Akron: {
+        "Portage County": {},
+        "Summit County": {},
+      },
     },
   },
   Oklahoma: {
@@ -343,7 +364,7 @@ const states = {
       },
     },
   },
-  "South_Carolina": {
+  South_Carolina: {
     MSA: {
       "Charleston-North Charleston": {
         "Berkeley County": {},
