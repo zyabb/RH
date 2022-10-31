@@ -20,10 +20,8 @@ setTimeout(() => {
   const stateEnabled = {
     Alaska: false,
     Florida: true,
-    Michigan: {
-      "MI-": true,
-      "SP-": true,
-    },
+    "Michigan_" : true,
+    "Michigan__": true,
     Vermont: false,
     Maine: false,
     Rhode_Island: false,
@@ -90,8 +88,9 @@ setTimeout(() => {
       $(`#${element}`).addClass("enabled");
       $(`#${element}`).attr("fill", colors.activeStateColor);
       $(`#${element}`).click(() => {
+         "Michigan_"!==element&&"Michigan__"!==element||(element="Michigan");
         clearTableAndState();
-        console.log("clicked", element, states[element]);
+        
 
         const msas = getMSAs(element);
         $(".state").text(element);
