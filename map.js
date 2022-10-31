@@ -11,6 +11,12 @@ setTimeout(() => {
     $(".info-block").removeClass("show");
     $(".tint").hide();
   });
+  
+    $(".tint").click(() => {
+    clearTableAndState();
+    $(".info-block").removeClass("show");
+    $(".tint").hide();
+  });
 
   const clearTableAndState = () => {
     $(".counties").remove();
